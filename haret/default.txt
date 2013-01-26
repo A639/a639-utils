@@ -1,0 +1,7 @@
+set mtype 4340
+set kernelcrc 0
+set fbduringboot 0
+set initrd_offset 0x00a00000
+set kernel "zImage"
+set initrd "ramdisk.img"
+bootlinux
